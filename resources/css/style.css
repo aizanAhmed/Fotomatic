@@ -1,0 +1,10 @@
+/* Universal Styles */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+}
