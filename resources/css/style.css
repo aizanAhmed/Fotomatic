@@ -8,3 +8,49 @@ html {
 .center {
     text-align: center;
 }
+
+/* Header Section */
+
+header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid black;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    height: 85px;
+    padding: 0 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.content .logo {
+    color: black;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+.desktop ul {
+    display: flex;
+}
+
+.desktop ul li {
+    padding-left: 3.5rem;
+}
+
+.insta {
+    height: 0.9rem;
+    width: 0.9rem;
+    padding-left: 0.6rem;
+}
+
+.mobile {
+    display: none;
+}
