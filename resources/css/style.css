@@ -54,3 +54,47 @@ nav a {
 .mobile {
     display: none;
 }
+
+/* Banner Section */
+
+#banner {
+    position: relative;
+    top: 5.3125rem;
+    background-image: url(../images/banner-landingpage.jpg);
+}
+
+#call-to-action {
+    padding: 32px 80px 56px 80px;
+    display: inline-block;
+    background-color: #9DC20A;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin: 170px 0 170px 100px;
+}
+
+.content .text1 {
+    font-family: 'Damion', cursive;
+    font-size: 1.875rem;
+    line-height: 1.4;
+}
+
+.content .text2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    line-height: 1.4;
+    padding-bottom: 12px;
+}
+
+.email p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    padding-bottom: 26px;
+}
+
+.email .button {
+    background-color: #4a4a4a;
+    padding: 22.5px 0;
+    border-radius: 4px;
+}
