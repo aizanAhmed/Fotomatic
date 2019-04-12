@@ -1,3 +1,12 @@
+/* "Tamming" Box Model With Reset */
+
+html { 
+    box-sizing: border-box; 
+  }
+  *, *:before, *:after { 
+    box-sizing: inherit;
+}
+
 /* Universal Styles */
 
 html {
@@ -15,7 +24,7 @@ header {
     width: 100%;
     background-color: white;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
     border-bottom: 1px solid black;
 }
 
@@ -58,25 +67,30 @@ nav a {
 /* Banner Section */
 
 #banner {
+    background-image: url(../images/banner-landingpage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 44.625rem;
     position: relative;
     top: 5.3125rem;
-    background-image: url(../images/banner-landingpage.jpg);
 }
 
 #call-to-action {
-    padding: 32px 80px 56px 80px;
     display: inline-block;
-    background-color: #9DC20A;
+    padding: 2rem 5rem 3.5rem 5rem;
+    background-color: #9dc20a;
     border: 1px solid #979797;
     border-radius: 4px;
+    margin-top: 10.625rem;
+    margin-bottom: 10.625rem;
+    margin-left: 6.25rem;
     color: white;
-    text-align: center;
-    margin: 170px 0 170px 100px;
 }
 
 .content .text1 {
     font-family: 'Damion', cursive;
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     line-height: 1.4;
 }
 
@@ -84,7 +98,7 @@ nav a {
     font-family: 'Rubik', sans-serif;
     font-size: 3.125rem;
     line-height: 1.4;
-    padding-bottom: 12px;
+    padding-bottom: 0.75rem;
 }
 
 .email p {
@@ -93,8 +107,23 @@ nav a {
     padding-bottom: 26px;
 }
 
-.email .button {
+.button {
     background-color: #4a4a4a;
-    padding: 22.5px 0;
     border-radius: 4px;
+    padding: 1.5rem 0;
+}
+
+/* Feature Section */
+
+#feature-section {
+    display: flex;
+}
+
+.feature {
+    height: 39.6875rem;
+}
+
+.image-container img {
+    height: 65%;
+    width: 90%;
 }
