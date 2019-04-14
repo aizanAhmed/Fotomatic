@@ -164,3 +164,22 @@ header a {
     display: flex;
     padding-top: 2.5rem;
 }
+
+/* Quote Section */
+
+#quote-section {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+#quote-section h2 {
+    color: #4a4a4a;
+    font-family: 'Damion', cursive;
+    font-size: 1.875rem;
+}
+
+#quote-section img {
+    margin-left: 1.875rem;
+}
