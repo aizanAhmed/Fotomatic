@@ -4,11 +4,16 @@
     padding: 0;
 }
 
-//////* Universal Style *//////
+/* Universal Style */
 
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+}
+
+a,
+nav a {
+    text-decoration: none;
 }
 
 .center {
@@ -22,4 +27,37 @@ html {
 .image-container img {
     display: block;
     max-width: 100%;
+}
+
+/* Header Section */
+
+header {
+    height: 5.3125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.875rem;
+    border-bottom: 1px solid black;
+}
+
+header a {
+    color: black;
+}
+
+.desktop ul {
+    display: flex;
+}
+
+.desktop ul li {
+    padding: 0 1.5rem;
+}
+
+.insta {
+    height: 0.75rem;
+    width: 0.9rem;
+    margin-left: 1rem;
+}
+
+.mobile {
+    display: none;
 }
