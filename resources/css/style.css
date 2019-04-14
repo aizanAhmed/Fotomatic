@@ -126,7 +126,8 @@ header a {
 
 .feature .content h1 {
     padding-top: 2.5rem;
-    font-family: 'Roboto-Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     font-size: 2.25rem;
     line-height: 1.2;
     color: black;
@@ -138,3 +139,28 @@ header a {
     color: #4a4a4a;
 }
 
+/* Filter Section */
+
+#filter-section {
+    background-color: #4a4a4a;
+    padding: 4rem 1%;
+    color: white;
+}
+
+#filter-section .content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    opacity: 100%;
+}
+
+#filter-section .content p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    padding-top: 0.35rem;
+}
+
+#filter-section .image-container {
+    display: flex;
+    padding-top: 2.5rem;
+}
