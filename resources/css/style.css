@@ -33,11 +33,15 @@ nav a {
 
 header {
     height: 5.3125rem;
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1.875rem;
     border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 1;
 }
 
 header a {
@@ -69,6 +73,7 @@ header a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 5.3125rem;
 }
 
 #call-to-action {
@@ -182,4 +187,21 @@ header a {
 
 #quote-section img {
     margin-left: 1.875rem;
+}
+
+/* Footer section */
+
+footer {
+    background-color: #9b9b9b;
+    height: 3.875rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+footer span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
 }
