@@ -61,3 +61,52 @@ header a {
 .mobile {
     display: none;
 }
+
+/* Banner Section */
+
+#banner {
+    background-image: url(../images/banner-landingpage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#call-to-action {
+    display: inline-block;
+    background-color: #9dc20a;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    color: white;
+    margin: 10.625rem 0 10.625rem 6.25rem;
+    padding: 2rem 5rem 3.5rem 5rem;
+}
+
+.content .text1 {
+    font-family: 'Damion', cursive;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.content .text2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    line-height: 1.4;
+    padding-bottom: 0.75rem;
+}
+
+.email p {
+    padding-bottom: 1.625rem;
+}
+
+.email p,
+.email span {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.email .list {
+    background-color: #4a4a4a;
+    border-radius: 4px;
+    padding: 1rem 7rem;
+}
+
